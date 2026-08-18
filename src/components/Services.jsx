@@ -25,7 +25,7 @@ export default function Services({ whatsappLink }) {
       desc: "Advanced laser scaling and polishing to remove tough stains, plaque, and calculus safely.", 
       icon: "✨",
       price: "₹1000 onwards",
-      image: "./scaling.jpg",
+      image: "./scaling.png",
       features: ["Stain removal", "Gum-safe cleaning", "Brighter smile in one visit"]
     },
     { 
