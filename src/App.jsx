@@ -6,10 +6,11 @@ import Faq from './components/Faq';
 import Contact from './components/Contact';
 
 function App() {
-  const whatsappNumber = "+91 7351355770";
+  const whatsappNumber = "917351355770";
   const clinicName = "Dr. Ankur's Dental Clinic & Implant Centre";
   const locationText = "Meerut";
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello ${clinicName}, I saw your website and want to book a dental consultation.`)}`;
+  const whatsappMessage = encodeURIComponent(`Hello ${clinicName}, I saw your website and want to book a dental consultation.`);
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans antialiased selection:bg-sky-100 selection:text-sky-800">
