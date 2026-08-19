@@ -35,12 +35,12 @@ export default function Header({ clinicName, whatsappLink }) {
     <>
       <div className="bg-gradient-to-r from-sky-800 to-sky-700 text-white text-xs md:text-sm py-2.5 px-4 shadow-sm">
         <div className="max-w-6xl mx-auto relative flex items-center justify-center min-h-[32px]">
-          <div className="flex items-center justify-center gap-2 text-center">
+          <div className="flex w-full items-center justify-center gap-2 pr-28 text-center leading-5 sm:pr-32">
             <span className="inline-block animate-pulse w-2 h-2 rounded-full bg-emerald-400"></span>
             <span>📍 Serving Meerut with Advanced ISO-Certified Sterilized Dental Care</span>
           </div>
 
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 flex items-center gap-2 md:gap-2.5">
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 flex items-center gap-1 sm:gap-2 md:gap-2.5">
             {socialLinks.map((social) => (
               <a
                 key={social.name}
@@ -48,7 +48,7 @@ export default function Header({ clinicName, whatsappLink }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.name}
-                className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
+                className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20 sm:h-7 sm:w-7"
               >
                 {social.icon}
               </a>
