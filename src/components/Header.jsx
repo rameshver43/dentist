@@ -4,7 +4,7 @@ export default function Header({ clinicName, whatsappLink }) {
   const socialLinks = [
     {
       name: 'Instagram',
-      href: 'https://instagram.com/ankurdentalclinic',
+      href: 'https://instagram.com/dr.ankurtilwadi',
       icon: (
         <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
           <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5Zm0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5Zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/>
@@ -13,7 +13,7 @@ export default function Header({ clinicName, whatsappLink }) {
     },
     {
       name: 'YouTube',
-      href: 'https://youtube.com/@ankurdentalclinic',
+      href: 'https://youtube.com/@oralcarewithdrankur',
       icon: (
         <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
           <path d="M21.6 7.2a2.94 2.94 0 0 0-2.08-2.08C17.9 4.7 12 4.7 12 4.7s-5.9 0-7.52.42A2.94 2.94 0 0 0 2.4 7.2 30.4 30.4 0 0 0 2 12a30.4 30.4 0 0 0 .4 4.8 2.94 2.94 0 0 0 2.08 2.08c1.62.42 7.52.42 7.52.42s5.9 0 7.52-.42A2.94 2.94 0 0 0 21.6 16.8 30.4 30.4 0 0 0 22 12a30.4 30.4 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"/>
@@ -22,7 +22,7 @@ export default function Header({ clinicName, whatsappLink }) {
     },
     {
       name: 'Facebook',
-      href: 'https://facebook.com/ankurdentalclinic',
+      href: 'https://facebook.com/ankur.badshah.16',
       icon: (
         <svg viewBox="0 0 24 24" className="h-4 w-4 fill-current" aria-hidden="true">
           <path d="M13.5 22v-8h2.67l.4-3.1h-3.07V7.2c0-.9.25-1.5 1.56-1.5H16.7V2.86c-.28-.04-1.24-.14-2.36-.14-2.34 0-3.94 1.43-3.94 4.05V10.9H8v3.1h2.4v8h3.1Z"/>

@@ -56,6 +56,21 @@ export default function Contact() {
                 </p>
               </div>
             </div>
+
+            <div className="flex items-start space-x-4">
+              <span className="text-2xl bg-slate-800 p-2 rounded-xl text-sky-400 shrink-0">
+                ✉️
+              </span>
+              <div>
+                <p className="font-extrabold text-white text-base">Email:</p>
+                <a
+                  href="mailto:a413774@gmail.com"
+                  className="text-slate-400 mt-0.5 hover:text-sky-400 transition-colors"
+                >
+                  a413774@gmail.com
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
